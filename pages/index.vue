@@ -16,8 +16,8 @@
         <TimeItem :end-date="Date.parse('5 Oct 2022 12:50:00 GMT+1')"/>
       </b-col>
       <b-col lg="12">
-        <br />
-        <p>Damit du mich nicht vergisst, werde ich die Seite hier ab und zu updaten – also schau vorbei!</p>
+        <br /><br />
+        <p>Damit du mich nicht ganz vergisst, werde ich die Seite hier ab und zu updaten – also schau vorbei!</p>
         <p>Dein Dominik</p>
       </b-col>
     </b-row>
