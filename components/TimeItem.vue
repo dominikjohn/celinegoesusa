@@ -54,7 +54,6 @@ export default {
 
   mounted() {
     this.tick()
-    print(this.endDate)
     this.timer = setInterval(this.tick.bind(this), 1000)
   },
 
