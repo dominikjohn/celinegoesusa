@@ -17,7 +17,7 @@
       </b-col>
       <b-col lg="12">
         <br /><br />
-        <p>Damit du mich nicht ganz vergisst, werde ich die Seite hier ab und zu updaten – also schau vorbei!</p>
+        <p>Damit du mich nicht ganz vergisst, werde ich hier Überraschungen verstecken, also schau ab und zu vorbei ;)</p>
         <p>Dein Dominik</p>
       </b-col>
     </b-row>
