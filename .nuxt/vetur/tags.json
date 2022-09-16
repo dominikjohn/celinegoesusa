@@ -2,7 +2,7 @@
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
   },
-  "PriceCalculator": {
-    "description": "Auto imported from components/PriceCalculator.vue"
+  "TimeItem": {
+    "description": "Auto imported from components/TimeItem.vue"
   }
 }
