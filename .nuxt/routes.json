@@ -1,0 +1,58 @@
+[
+  {
+    "name": "gindlalm",
+    "path": "/gindlalm",
+    "component": "/Users/dominikjohn/WebstormProjects/neulandneuseeland/pages/gindlalm/index.vue",
+    "chunkName": "pages/gindlalm/index",
+    "_name": "_b641e582"
+  },
+  {
+    "name": "hirschberg",
+    "path": "/hirschberg",
+    "component": "/Users/dominikjohn/WebstormProjects/neulandneuseeland/pages/hirschberg/index.vue",
+    "chunkName": "pages/hirschberg/index",
+    "_name": "_61080bd0"
+  },
+  {
+    "name": "neureuth",
+    "path": "/neureuth",
+    "component": "/Users/dominikjohn/WebstormProjects/neulandneuseeland/pages/neureuth/index.vue",
+    "chunkName": "pages/neureuth/index",
+    "_name": "_bd195eae"
+  },
+  {
+    "name": "risserkogerl",
+    "path": "/risserkogerl",
+    "component": "/Users/dominikjohn/WebstormProjects/neulandneuseeland/pages/risserkogerl/index.vue",
+    "chunkName": "pages/risserkogerl/index",
+    "_name": "_632f8db1"
+  },
+  {
+    "name": "rossstein",
+    "path": "/rossstein",
+    "component": "/Users/dominikjohn/WebstormProjects/neulandneuseeland/pages/rossstein/index.vue",
+    "chunkName": "pages/rossstein/index",
+    "_name": "_291d73de"
+  },
+  {
+    "name": "silberkopf",
+    "path": "/silberkopf",
+    "component": "/Users/dominikjohn/WebstormProjects/neulandneuseeland/pages/silberkopf/index.vue",
+    "chunkName": "pages/silberkopf/index",
+    "_name": "_41a17384"
+  },
+  {
+    "name": "wallberg",
+    "path": "/wallberg",
+    "component": "/Users/dominikjohn/WebstormProjects/neulandneuseeland/pages/wallberg/index.vue",
+    "chunkName": "pages/wallberg/index",
+    "_name": "_0c95bef3"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/dominikjohn/WebstormProjects/neulandneuseeland/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_4d8af9d4"
+  }
+]
