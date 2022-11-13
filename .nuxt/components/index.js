@@ -1,5 +1,5 @@
-export const Logo = () => import('../../components/Logo.vue' /* webpackChunkName: "components/logo" */).then(c => wrapFunctional(c.default || c))
-export const TimeItem = () => import('../../components/TimeItem.vue' /* webpackChunkName: "components/time-item" */).then(c => wrapFunctional(c.default || c))
+export { default as Logo } from '../../components/Logo.vue'
+export { default as TimeItem } from '../../components/TimeItem.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

@@ -6,7 +6,7 @@
 
     <div v-else>
       <b-row style="text-align: center">
-        <b-col lg="12" style="margin-bottom: 15px;"><h2>Abflug in</h2></b-col>
+        <b-col lg="12" style="margin-bottom: 15px;"><h2>In Neuseeland seit etwa...</h2></b-col>
         <b-col lg="3"><h4><b>{{ days }}</b><br/>Tagen</h4></b-col>
         <b-col lg="3"><h4><b>{{ hours }}</b><br/>Stunden</h4></b-col>
         <b-col lg="3"><h4><b>{{ minutes }}</b><br/>Minuten</h4></b-col>
@@ -42,7 +42,7 @@ export default {
 
     tick() {
       const currentTime = new Date()
-      const distance = Math.max(this.endDate - currentTime, 0)
+      const distance = Math.max(currentTime - this.endDate, 0)
       this.updateRemaining(distance)
 
       if (distance === 0) {
