@@ -2,29 +2,17 @@
   <div class="container">
     <b-row>
       <b-col lg="12">
-        <br /><h1>Ein bisschen Heimat für Basti</h1>
-        <p>Wenn man sehr weit weg von zuhause ist, hilft manchmal ein bisschen Erinnerung an die Heimat.</p>
-        <p>Diese Gruppenfoto hat es an Sosos Meme-Wand geschafft. Und das sogar, obwohl es kein Meme ist! Eine hohe
-          Auszeichnung ;)</p>
-        <img src="/IMG_7560.jpg" width="100%"/><br /><br />
-        <p>Auch helfen könnte dieses bayerische Wirtshaus. Allerdings ist das gar nicht aus Bayern... sondern aus Hamburg. Jetzt klauen sie uns schon nicht nur das Oktoberfest, sondern auch die Wirtshäuser!</p>
-        <img src="/IMG_7437.jpg" width="100%"/><br /> <br/>
-        <p>Schick mir gern bei Gelegenheit auch paar Bilder aus Neuseeland ;) Ich hoffe der Kein-Plan-Plan geht auf!</p>
-        <p>Liebe Grüße, dein Dominik</p>
-        <!--<h1>Lieber Basti,</h1>
-        <p>da du wahrscheinlich schon genügend Dinge hast, die du für so eine lange Reise packen musst, dachte ich mir,
-          ich schenke dir etwas, was nicht ganz so schwer ist. Genau genommen wiegt diese Website 2⋅10<sup>-19</sup>
-          kg – also egal mit welcher Airline du fliegst, du musst auf jeden Fall keine Extra-Gebühren zahlen. Der Flug allein
-          ist
-          ja schon teuer genug ;)</p>
-        <p>Ich hoffe nur, dein neuer Wohnsitz befindet sich nicht in einer neuseeländischen Schafsherde und du hast weiter Zugriff
-          auf das Internet, sonst war die Aktion hier natürlich etwas umsonst...</p>
-        <p>Da du mir letztes Mal nicht genau sagen konntest, wann du eigentlich abreist, dachte ich mir, ich helfe dir etwas auf die Sprünge, damit auch alles glatt läuft:</p><br />-->
+        <h1>Liebe Céline,</h1>
+        <p>anders als dein Geschenk letztes Mal ist meins dann doch eher klischeehaft für dich als Informatikerin. Aber
+          ich dachte mir, für so eine weite Reise hast du eh schon genug zu packen – deshalb schenke ich dir lieber was
+          leichtes. Und sehr viel leichter als diese Website soll erstmal jemand hinbekommen! Die wiegt nämlich unter 20 KB. Egal welche Airline also (außer vielleicht bei RyanAir): Du musst sicher keinen Aufpreis zahlen!</p>
+        <p>Damit du München nicht ganz vergisst, erwartet dich auf dieser Seite ab deiner Abreise eine kleine Überraschung. Also schau bald wieder vorbei. Bis dahin: Guten Flug und eine mega schöne Zeit in den Staaten!</p>
+        <p>Dein Domjohn</p>
       </b-col>
-      <b-col>
+      <!--<b-col>
         <TimeItem :end-date="Date.parse('12 Oct 2022 12:50:00 GMT+1')"/>
         <br />
-      </b-col>
+      </b-col>-->
       <!--<b-col lg="12">
         <br /><br />
         <p>Damit du mich nicht ganz vergisst, werde ich hier Überraschungen verstecken, also schau ab und zu vorbei ;)</p>
