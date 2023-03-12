@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Neuland Neuseeland',
+    title: 'Céline goes USA',
     htmlAttrs: {
       lang: 'de'
     },
