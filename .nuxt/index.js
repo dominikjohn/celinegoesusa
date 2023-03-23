@@ -12,8 +12,8 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_6cdfb34a from 'nuxt_plugin_plugin_6cdfb34a' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_bootstrapvue_04c27b8f from 'nuxt_plugin_bootstrapvue_04c27b8f' // Source: ./bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_plugin_2f784886 from 'nuxt_plugin_plugin_2f784886' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_728f0ecb from 'nuxt_plugin_bootstrapvue_728f0ecb' // Source: ./bootstrap-vue.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -42,7 +42,7 @@ Vue.component(Nuxt.name, Nuxt)
 
 Object.defineProperty(Vue.prototype, '$nuxt', {
   get() {
-    const globalNuxt = this.$root.$options.$nuxt
+    const globalNuxt = this.$root ? this.$root.$options.$nuxt : null
     if (process.client && !globalNuxt && typeof window !== 'undefined') {
       return window.$nuxt
     }
@@ -56,14 +56,15 @@ Vue.use(Meta, {"keyName":"head","attribute":"data-n-head","ssrAttribute":"data-n
 const defaultTransition = {"name":"page","mode":"out-in","appear":true,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
 async function createApp(ssrContext, config = {}) {
-  const router = await createRouter(ssrContext, config)
+  const store = null
+  const router = await createRouter(ssrContext, config, { store })
 
   // Create Root instance
 
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"Neuland Neuseeland","htmlAttrs":{"lang":"de"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"title":"Céline goes USA","htmlAttrs":{"lang":"de"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -128,6 +129,7 @@ async function createApp(ssrContext, config = {}) {
     req: ssrContext ? ssrContext.req : undefined,
     res: ssrContext ? ssrContext.res : undefined,
     beforeRenderFns: ssrContext ? ssrContext.beforeRenderFns : undefined,
+    beforeSerializeFns: ssrContext ? ssrContext.beforeSerializeFns : undefined,
     ssrContext
   })
 
@@ -177,12 +179,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_6cdfb34a === 'function') {
-    await nuxt_plugin_plugin_6cdfb34a(app.context, inject)
+  if (typeof nuxt_plugin_plugin_2f784886 === 'function') {
+    await nuxt_plugin_plugin_2f784886(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_bootstrapvue_04c27b8f === 'function') {
-    await nuxt_plugin_bootstrapvue_04c27b8f(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_728f0ecb === 'function') {
+    await nuxt_plugin_bootstrapvue_728f0ecb(app.context, inject)
   }
 
   // Lock enablePreview in context

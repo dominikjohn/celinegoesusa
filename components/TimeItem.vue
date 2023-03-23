@@ -6,7 +6,7 @@
 
     <div v-else>
       <b-row style="text-align: center">
-        <b-col lg="12" style="margin-bottom: 15px;"><h2>In Neuseeland seit etwa...</h2></b-col>
+        <b-col lg="12" style="margin-bottom: 15px;"><h2>Abgeflogen vor...</h2></b-col>
         <b-col lg="3"><h4><b>{{ days }}</b><br/>Tagen</h4></b-col>
         <b-col lg="3"><h4><b>{{ hours }}</b><br/>Stunden</h4></b-col>
         <b-col lg="3"><h4><b>{{ minutes }}</b><br/>Minuten</h4></b-col>
